@@ -1,0 +1,113 @@
+/* html {
+  font-size: 62.5%;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  color: #2e354f;
+}
+h1 {
+  font-size: 2.75rem;
+}
+
+h1,
+h2 {
+  font-weight: 900;
+}
+
+h2 {
+  color: #ef5839;
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+
+p {
+  padding: 20px 0 16px 0;
+}
+
+header {
+  background-color: #2e354f;
+  padding: 80px 0;
+  color: #fff;
+}
+
+/* .section-one {
+} */
+.section {
+  margin-top: 8vh;
+}
+
+.section-two {
+  color: #fff;
+  background-color: #2e354f;
+  padding: 50px 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin-bottom: 28px;
+}
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  /* border: 1px solid magenta; */
+  /* padding: 80px; */
+}
+
+a {
+  color: #ef5839;
+}
+
+a:hover,
+a:focus {
+  color: #d4b44c;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 25px;
+  margin-left: 10px;
+  margin-top: 24px;
+  font-size: 14px;
+  font-weight: 400;
+
+  max-width: 100%;
+}
+
+.btn-accent {
+  background-color: #ef5839;
+  color: #fff;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-accent:hover {
+  color: #2e354f;
+  background: #d4b44c;
+}
+.btn-white:hover {
+  color: #2e354f;
+  background: #999;
+}
+
+.section-one {
+  font-size: 20px;
+}
+
+ul {
+  font-size: 1em;
+  text-decoration: none;
+}
